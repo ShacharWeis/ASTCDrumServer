@@ -69,7 +69,7 @@ def count_drums():
     return drum_count
 
 def log_setup():
-    log_handler = logging.handlers.TimedRotatingFileHandler('/home/user/midiserver/midiserver.log', when='midnight')
+    log_handler = logging.handlers.TimedRotatingFileHandler('/home/user/ASTCMidiServer/midiserver.log', when='midnight')
     formatter = logging.Formatter(
         '%(asctime)s program_name [%(process)d]: %(message)s',
         '%b %d %H:%M:%S')
