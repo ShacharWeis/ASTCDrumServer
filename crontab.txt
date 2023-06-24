@@ -1,0 +1,1 @@
+@reboot echo "Zenith5060" | sudo -S python3 /home/user/ASTCDrumServer/server.py
